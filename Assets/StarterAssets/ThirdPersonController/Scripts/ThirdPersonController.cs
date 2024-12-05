@@ -1,4 +1,5 @@
-﻿ using UnityEngine;
+﻿using Photon.Pun;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -12,7 +13,7 @@ namespace StarterAssets
 #if ENABLE_INPUT_SYSTEM 
     [RequireComponent(typeof(PlayerInput))]
 #endif
-    public class ThirdPersonController : MonoBehaviour
+    public class ThirdPersonController : MonoBehaviourPun
     {
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
@@ -154,6 +155,8 @@ namespace StarterAssets
 
         private void Update()
         {
+            if (!photonView.IsMine && PhotonNetwork.IsConnected)
+                return;
             _hasAnimator = TryGetComponent(out _animator);
 
             JumpAndGravity();

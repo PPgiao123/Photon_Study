@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: KnifeAnimator
+  m_Name: MyController
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Trigger01
@@ -715,7 +715,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102352564026275448}
-    m_Position: {x: 132, y: -168, z: 0}
+    m_Position: {x: 130, y: -170, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102011740149183394}
     m_Position: {x: 130, y: -80, z: 0}
