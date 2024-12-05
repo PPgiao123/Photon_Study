@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
+using Cinemachine;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
+    public CinemachineVirtualCamera playerFollowCamera;
     //MonoBehaviourPunCallbacks用以获取服务器的反馈
     void Start()
     {
@@ -23,6 +25,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         base.OnJoinedRoom();
 
-        PhotonNetwork.Instantiate("Player", new Vector3(0, 0, 0), Quaternion.identity, 0);
+        GameObject clone = PhotonNetwork.Instantiate("Player", new Vector3(0, 0, 0), Quaternion.identity, 0);
+        playerFollowCamera.Follow = clone.GetComponent<Player>().cameraTrans;
     }
 }

@@ -155,7 +155,7 @@ namespace StarterAssets
 
         private void Update()
         {
-            if (!photonView.IsMine && PhotonNetwork.IsConnected)
+            if (photonView != null && !photonView.IsMine && PhotonNetwork.IsConnected)
                 return;
             _hasAnimator = TryGetComponent(out _animator);
 
