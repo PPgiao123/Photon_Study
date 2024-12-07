@@ -1,0 +1,2363 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &61533244980227575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8560199383104010720}
+  m_Layer: 0
+  m_Name: OtherStuff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8560199383104010720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61533244980227575}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8791460563456150703}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &752381044334314502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6283588704250301101}
+  m_Layer: 0
+  m_Name: CornerNodes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6283588704250301101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752381044334314502}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2748564162857762944}
+  - {fileID: 7747092458638048714}
+  - {fileID: 3937884262553805303}
+  m_Father: {fileID: 8791460563456150703}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &841055771452705898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4901138083933334894}
+  - component: {fileID: 6666891444090307028}
+  - component: {fileID: 9205948411784977541}
+  m_Layer: 0
+  m_Name: TrafficLightHandler2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4901138083933334894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841055771452705898}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8688206868765173836}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6666891444090307028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841055771452705898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c27a552e32a343a4fa46a7a2c37f3716, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trafficLightCrossroad: {fileID: 8532820354393441088}
+  triggers:
+  - {fileID: 7024255039385732011}
+  trafficLightsParents: {fileID: 500783816573751909}
+  pedestrianLightsParents: {fileID: 256629091254712162}
+  relatedLightIndex: 1
+  childLights: []
+  customLights: []
+  showWorldTrafficLights: 0
+  showLightConnection: 0
+  visibleLightConnection: 1
+  lightStates: []
+--- !u!114 &9205948411784977541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841055771452705898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1434c0f4866ebe249add874dbef99df4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &922804606990454682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 256629091254712162}
+  m_Layer: 0
+  m_Name: PedestrianLights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &256629091254712162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922804606990454682}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6493627626697314238}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &994730887751664153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8688206868765173836}
+  m_Layer: 0
+  m_Name: TrafficLightHandlers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8688206868765173836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994730887751664153}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5183462324792382012}
+  - {fileID: 4901138083933334894}
+  m_Father: {fileID: 8791460563456150703}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1069166548497692495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7317342881683673811}
+  - component: {fileID: 5124068169712540281}
+  - component: {fileID: 1329754525192249253}
+  - component: {fileID: 2698234412033610467}
+  m_Layer: 21
+  m_Name: PedestrianSpawnPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7317342881683673811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069166548497692495}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.88, y: 0, z: -0.0000003522057}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5818093898553340090}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &5124068169712540281
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069166548497692495}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1329754525192249253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069166548497692495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72466e5126432342af787de497b412c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HotKeyConfig: {fileID: 11400000, guid: d1754fa05ebeebd47bc3942970427182, type: 2}
+  connectedTrafficNode: {fileID: 1618596867184944596}
+  relatedTrafficLightHandler: {fileID: 6666891444090307028}
+  autoConnectedPedestrianNodes: []
+  defaultConnectedPedestrianNodes:
+  - {fileID: 5825481344179264369}
+  - {fileID: 8194812571768403277}
+  connectionDataContainer:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 0
+    showPages: 1
+    dirty: 0
+    newKey: 0
+    keys: 
+    values: []
+  leftHorizontal: 0
+  rightHorizontal: 0
+  leftVertical: 0
+  rightVertical: 1
+  pedestrianNodeType: 0
+  previousPedestrianNodeType: 0
+  pedestrianNodeShapeType: 0
+  canSpawnInView: 0
+  capacity: -1
+  priorityWeight: 1
+  customAchieveDistance: 0
+  chanceToSpawn: 1
+  maxPathWidth: 1
+  height: 1
+  hasMovementRandomOffset: 1
+  uniqueId: 0
+  PedestrianNodeCreator: {fileID: 0}
+  CurrentPedestrianNodeAreaSettings:
+    areaShapeType: 0
+    areaSize: 5
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    unlimitedTalkTime: 1
+    minTalkTime: 20
+    maxTalkTime: 50
+    showBounds: 1
+    boundsColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2698234412033610467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069166548497692495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507830899febbed469dd34723ce03b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1263090858880676498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5183462324792382012}
+  - component: {fileID: 4990135004137724864}
+  - component: {fileID: 6003657765380632969}
+  m_Layer: 0
+  m_Name: TrafficLightHandler1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5183462324792382012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263090858880676498}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8688206868765173836}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4990135004137724864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263090858880676498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c27a552e32a343a4fa46a7a2c37f3716, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trafficLightCrossroad: {fileID: 8532820354393441088}
+  triggers:
+  - {fileID: 1618596867184944596}
+  - {fileID: 6506298061152375464}
+  trafficLightsParents: {fileID: 500783816573751909}
+  pedestrianLightsParents: {fileID: 256629091254712162}
+  relatedLightIndex: 0
+  childLights: []
+  customLights: []
+  showWorldTrafficLights: 0
+  showLightConnection: 0
+  visibleLightConnection: 1
+  lightStates: []
+--- !u!114 &6003657765380632969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263090858880676498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1434c0f4866ebe249add874dbef99df4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1394680922459808576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6134582472545197672}
+  - component: {fileID: 7299491717297414080}
+  - component: {fileID: 2620269997813730515}
+  - component: {fileID: 3352117250687140846}
+  m_Layer: 21
+  m_Name: PedestrianSpawnPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6134582472545197672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394680922459808576}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.88, y: 0, z: 3.71}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2022943092353926273}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &7299491717297414080
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394680922459808576}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2620269997813730515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394680922459808576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72466e5126432342af787de497b412c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HotKeyConfig: {fileID: 11400000, guid: d1754fa05ebeebd47bc3942970427182, type: 2}
+  connectedTrafficNode: {fileID: 7024255039385732011}
+  relatedTrafficLightHandler: {fileID: 4990135004137724864}
+  autoConnectedPedestrianNodes: []
+  defaultConnectedPedestrianNodes:
+  - {fileID: 1871322217752665078}
+  - {fileID: 5825481344179264369}
+  - {fileID: 8194812571768403277}
+  connectionDataContainer:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 0
+    showPages: 1
+    dirty: 0
+    newKey: 0
+    keys: 
+    values: []
+  leftHorizontal: 0
+  rightHorizontal: 0
+  leftVertical: 0
+  rightVertical: 1
+  pedestrianNodeType: 0
+  previousPedestrianNodeType: 0
+  pedestrianNodeShapeType: 0
+  canSpawnInView: 0
+  capacity: -1
+  priorityWeight: 1
+  customAchieveDistance: 0
+  chanceToSpawn: 1
+  maxPathWidth: 1
+  height: 1
+  hasMovementRandomOffset: 1
+  uniqueId: 0
+  PedestrianNodeCreator: {fileID: 0}
+  CurrentPedestrianNodeAreaSettings:
+    areaShapeType: 0
+    areaSize: 5
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    unlimitedTalkTime: 1
+    minTalkTime: 20
+    maxTalkTime: 50
+    showBounds: 1
+    boundsColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &3352117250687140846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394680922459808576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507830899febbed469dd34723ce03b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2041058498640464687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8791460563456150703}
+  - component: {fileID: 2567763903183140930}
+  - component: {fileID: 2480506911338986162}
+  - component: {fileID: 8532820354393441088}
+  m_Layer: 0
+  m_Name: road_3_dir_inner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8791460563456150703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041058498640464687}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -3.125, y: 0, z: 6.125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8688206868765173836}
+  - {fileID: 8011337088517403190}
+  - {fileID: 6283588704250301101}
+  - {fileID: 6493627626697314238}
+  - {fileID: 8560199383104010720}
+  - {fileID: 4212188623447829547}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2567763903183140930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041058498640464687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8cc0f6281fc6ea4bad79623e57f505e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trafficNodeParent: {fileID: 8011337088517403190}
+  cornerNodes: {fileID: 6283588704250301101}
+  trafficLights: {fileID: 500783816573751909}
+  pedestrianLights: {fileID: 256629091254712162}
+  trafficLightCrossroad: {fileID: 8532820354393441088}
+  roadSegmentCreatorConfig: {fileID: 11400000, guid: 7829770fc28bbca4fb359f176c98ea3d, type: 2}
+  selectedTabIndex: 0
+  roadSegmentType: 0
+  laneCount: 1
+  subLaneCount: 1
+  dividerWidth: 0
+  customLaneWidth: 7.5
+  customSubLaneWidth: 0
+  subLaneWidth: 3.8
+  customLaneWidthEnabled: 0
+  directionCount: 3
+  crossroadWidth: 12
+  subTrafficNodeDistanceFromCenter: 14
+  trafficNodeOffset1: 0
+  trafficNodeOffset2: 0
+  additionalLocalAngle1: 0
+  additionalLocalAngle2: 0
+  pathCorner1Offset: {x: 1, y: 0, z: -1}
+  pathCorner2Offset: {x: -1, y: 0, z: 1}
+  uniqueCrossWalkOffset: 0
+  customCrossWalkOffset: {x: -0.62, y: 0, z: 0}
+  customTrafficNodeSettings: 0
+  newNodeSettingsType: 0
+  copySelectedIndex: 0
+  addPedestrianNodes: 1
+  addAlongLine: 0
+  lineNodeOffset: 0
+  nodeSpacing: 10
+  crossWalkNodeShape: 0
+  pedestrianRouteWidth: 1
+  crosswalkNodeHeight: 1
+  customCrossWalk: 1
+  connectCrosswalks: 0
+  customPedestrianNodesData: 01010101
+  customCrossWalksData: 01010101
+  pedestrianCornerConnectionType: 1
+  cornerOffset: {x: 0, y: 0, z: 0}
+  loopPedestrianConnection: 1
+  cornerPedestrianNodes:
+  - {fileID: 5825481344179264369}
+  - {fileID: 8782437171316075393}
+  cornerPedestrianNodesBinding: 
+  isEnterOfOneWay: 
+  shouldRevertDirection: 0
+  generateSpawnNodes: 0
+  customTurnDatas:
+  - LeftTurnCount: 1
+    RightTurnCount: 1
+    LaneLeftTurnConnectionCount: 1
+    LaneRightTurnConnectionCount: 1
+  - LeftTurnCount: 1
+    RightTurnCount: 1
+    LaneLeftTurnConnectionCount: 1
+    LaneRightTurnConnectionCount: 1
+  - LeftTurnCount: 1
+    RightTurnCount: 1
+    LaneLeftTurnConnectionCount: 1
+    LaneRightTurnConnectionCount: 1
+  - LeftTurnCount: 1
+    RightTurnCount: 1
+    LaneLeftTurnConnectionCount: 1
+    LaneRightTurnConnectionCount: 1
+  customNodeTurnSettings: 0
+  trafficNodeHeight1: 0
+  trafficNodeHeight2: 0
+  parkingBuilderMode: 0
+  parkingSettingsTabIndex: 0
+  parkingHandleTabIndex: 0
+  parkingConfigType: 0
+  selectedPathToolbarOption: 0
+  parkingConnectionSourceType: 0
+  parkingSourcePath: {fileID: 0}
+  sourceTrafficNode: {fileID: 0}
+  targetTrafficNode: {fileID: 0}
+  connectionLaneIndex: 0
+  showSelectPathButtons: 0
+  autoRecalculateParkingPaths: 1
+  handleTypeTabIndex: 1
+  showEditPathParkingButtons: 1
+  showSaveParkingConfigSettings: 0
+  configName: 
+  tempParkingLineSettings: {fileID: 0}
+  parkingConfigNames: []
+  tempStartParkingPoint: {fileID: 0}
+  lineDatas: []
+  enterPathOffsets: []
+  exitPathOffsets: []
+  selectedParkingOffsetPathIndex: 0
+  snapToolbarIndex: 0
+  straightRoadSelectedNodeIndex: 0
+  wayPointStraightRoadCount: 2
+  straightRoadPathSpeedLimit: 60
+  straightRoadPriority: 0
+  turnCurveType: 0
+  wayPointTurnCurveCount: 10
+  turnRoadPathSpeedLimit: 30
+  turnRoadPriority: -1
+  showTrafficNodeHandles: 1
+  showTrafficNodeForward: 1
+  showPathHandles: 0
+  selectedTrafficNodeIndex: -1
+  selectedPathIndex: -1
+  selectedPath: {fileID: 0}
+  showEditButtonsPathNodes: 0
+  showWaypoints: 0
+  showWaypointsInfo: 0
+  additionalSettings: 0
+  minTrafficNodesCountForAddLight: 3
+  selectedLightNodeIndex: -1
+  showLightIndexes: 0
+  addPedestrianLights: 0
+  addTrafficLights: 0
+  lightHandleType: 0
+  lightType: 1
+  lightSnapPosition: 1
+  lightAddHalfOffset: 1
+  lightSnapCustomSize: 1
+  lightAutoRoundRotation: 1
+  lightRoundAngle: 10
+  commonLightObjectData:
+    Enabled: 1
+    SelectedLightPrefabType: 2
+    LightLocation: 0
+    TrafficLightOffset: {x: 0, y: 0, z: 0}
+    PedestrianLightOffset: {x: 1, y: 0, z: -1}
+    AngleOffsets: []
+    FlipAngleOffsets: 
+    PedestrianAngleOffset: 90
+  lightObjectDatas:
+  - Enabled: 1
+    SelectedLightPrefabType: 2
+    LightLocation: 0
+    TrafficLightOffset: {x: 0, y: 0, z: 0}
+    PedestrianLightOffset: {x: 0, y: 0, z: 0}
+    AngleOffsets:
+    - 0
+    FlipAngleOffsets: 00
+    PedestrianAngleOffset: 90
+  - Enabled: 1
+    SelectedLightPrefabType: 2
+    LightLocation: 0
+    TrafficLightOffset: {x: 0, y: 0, z: 0}
+    PedestrianLightOffset: {x: 0, y: 0, z: 0}
+    AngleOffsets:
+    - 0
+    FlipAngleOffsets: 00
+    PedestrianAngleOffset: 90
+  - Enabled: 1
+    SelectedLightPrefabType: 2
+    LightLocation: 0
+    TrafficLightOffset: {x: 0, y: 0, z: 0}
+    PedestrianLightOffset: {x: 0, y: 0, z: 0}
+    AngleOffsets:
+    - 0
+    FlipAngleOffsets: 00
+    PedestrianAngleOffset: 90
+  oneWay: 0
+  snapObjectType: 3
+  autoSnapPosition: 1
+  addHalfOffset: 1
+  autoSnapCustomSize: 1
+  autoRoundRotation: 1
+  roundAngle: 10
+  lockYAxisMove: 1
+  showYPosition: 0
+  roundYPosition: 1
+  roundYValue: 0.05
+  angleThreshold: 2
+  minWaypointOffset: 1
+  tempCustomPaths: []
+  trafficNodeHeaders:
+  - All
+  - Node1
+  - Node2
+  - Node3
+  pathHeaders: []
+  createdTrafficNodes:
+  - {fileID: 1618596867184944596}
+  - {fileID: 7024255039385732011}
+  - {fileID: 6506298061152375464}
+  createdSubLaneTrafficNodes: []
+  createdLights: []
+  lightBinding: []
+  createTrafficNodeCount: 3
+  initialInit: 1
+--- !u!114 &2480506911338986162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041058498640464687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62169742c5588c64ca3fa89e6c5c5dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  link: 
+  roadSegmentPlacer: {fileID: 0}
+  shortTitleName: RoadName
+  showIntersectedPaths: 0
+--- !u!114 &8532820354393441088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041058498640464687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2708c5958a22f4344b2b6ab2fd9eaa63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedStateContainer: {fileID: 11400000, guid: 05128ed262d92374ca183b7a8152ee1c, type: 2}
+  trafficSegmentConfig: {fileID: 11400000, guid: 2224e300ab3a0bc42a0ca74b8f44d5dc, type: 2}
+  trafficLightHandlerParent: {fileID: 8688206868765173836}
+  trafficLightParent: {fileID: 500783816573751909}
+  pedestrianLightParent: {fileID: 256629091254712162}
+  hasLights: 1
+  customSettings: 0
+  trafficNodes:
+  - {fileID: 1618596867184944596}
+  - {fileID: 7024255039385732011}
+  - {fileID: 6506298061152375464}
+  trafficLightHandlerData:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 1
+    showPages: 0
+    dirty: 0
+    newKey: 0
+    keys: 0000000001000000
+    values:
+    - {fileID: 4990135004137724864}
+    - {fileID: 6666891444090307028}
+  customArrowLights: []
+  showCustomArrowLightSetup: 0
+  selectedPath: {fileID: 0}
+  sourceSelectedNode: -1
+  sourceSelectedPathIndex: -1
+  customRelatedLightIndex: 2
+  nodeHeaders:
+  - TrafficNode1
+  - TrafficNode2
+  - TrafficNode3
+  pathHeaders: []
+  showLoopTimeSettings: 0
+  customTimeOffset: 0
+  sourceDataHandlerIndex: 0
+  uniqueId: -149701634
+--- !u!1 &2920192491916641768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8952151280796000219}
+  - component: {fileID: 6314415553140497252}
+  - component: {fileID: 1618596867184944596}
+  - component: {fileID: 4222429136256227297}
+  m_Layer: 20
+  m_Name: TrafficNode1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8952151280796000219
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920192491916641768}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalPosition: {x: 0, y: 0, z: -12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5818093898553340090}
+  - {fileID: 968161256720198220}
+  m_Father: {fileID: 8011337088517403190}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6314415553140497252
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920192491916641768}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15, y: 2, z: 0.5}
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1618596867184944596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920192491916641768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909a80ce9df91e84db88d0d59a44f45c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadSegmentCreator: {fileID: 2567763903183140930}
+  trafficLightCrossroad: {fileID: 8532820354393441088}
+  trafficLightHandler: {fileID: 4990135004137724864}
+  trafficNodeCrosswalk: {fileID: 4222429136256227297}
+  pathPrefab: {fileID: 5809654084112019270, guid: 2819ebe28c3f60647b875c55de688821, type: 3}
+  pathParent: {fileID: 968161256720198220}
+  lanes: []
+  externalLanes: []
+  laneCount: 1
+  laneWidth: 7.5
+  dividerWidth: 0
+  chanceToSpawn: 1
+  weight: 1
+  customAchieveDistance: 0
+  lightType: 1
+  trafficNodeType: 0
+  hasCrosswalk: 1
+  isOneWay: 0
+  isEndOfOneWay: 0
+  lockPathAutoCreation: 0
+  autoPathIsCreated: 0
+  subNodeType: 0
+  tempCreatorLocalIndex: 0
+--- !u!114 &4222429136256227297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2920192491916641768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f4a4a0f4ff493e43aeb402c835f89ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedestrianNode1: {fileID: 1682547081301563602}
+  pedestrianNode2: {fileID: 1329754525192249253}
+  crossWalkOffset: {x: -0.62, y: 0, z: 0}
+--- !u!1 &3348921942706301130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6441854267694666384}
+  - component: {fileID: 1786214437876944954}
+  - component: {fileID: 3411815555844383106}
+  - component: {fileID: 3646597226268594994}
+  m_Layer: 21
+  m_Name: PedestrianSpawnPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6441854267694666384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3348921942706301130}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.88, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 78227033339257015}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1786214437876944954
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3348921942706301130}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3411815555844383106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3348921942706301130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72466e5126432342af787de497b412c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HotKeyConfig: {fileID: 11400000, guid: d1754fa05ebeebd47bc3942970427182, type: 2}
+  connectedTrafficNode: {fileID: 6506298061152375464}
+  relatedTrafficLightHandler: {fileID: 6666891444090307028}
+  autoConnectedPedestrianNodes: []
+  defaultConnectedPedestrianNodes:
+  - {fileID: 8194812571768403277}
+  - {fileID: 8782437171316075393}
+  connectionDataContainer:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 0
+    showPages: 1
+    dirty: 0
+    newKey: 0
+    keys: 
+    values: []
+  leftHorizontal: 0
+  rightHorizontal: 0
+  leftVertical: 0
+  rightVertical: 1
+  pedestrianNodeType: 0
+  previousPedestrianNodeType: 0
+  pedestrianNodeShapeType: 0
+  canSpawnInView: 0
+  capacity: -1
+  priorityWeight: 1
+  customAchieveDistance: 0
+  chanceToSpawn: 1
+  maxPathWidth: 1
+  height: 1
+  hasMovementRandomOffset: 1
+  uniqueId: 0
+  PedestrianNodeCreator: {fileID: 0}
+  CurrentPedestrianNodeAreaSettings:
+    areaShapeType: 0
+    areaSize: 5
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    unlimitedTalkTime: 1
+    minTalkTime: 20
+    maxTalkTime: 50
+    showBounds: 1
+    boundsColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &3646597226268594994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3348921942706301130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507830899febbed469dd34723ce03b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3451613488480669311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6594450131222751298}
+  - component: {fileID: 266755355450455850}
+  - component: {fileID: 7024255039385732011}
+  - component: {fileID: 2043658313090292526}
+  m_Layer: 20
+  m_Name: TrafficNode2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6594450131222751298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3451613488480669311}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: -0.7071068}
+  m_LocalPosition: {x: -12, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2022943092353926273}
+  - {fileID: 6288524743661866810}
+  m_Father: {fileID: 8011337088517403190}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &266755355450455850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3451613488480669311}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15, y: 2, z: 0.5}
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &7024255039385732011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3451613488480669311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909a80ce9df91e84db88d0d59a44f45c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadSegmentCreator: {fileID: 2567763903183140930}
+  trafficLightCrossroad: {fileID: 8532820354393441088}
+  trafficLightHandler: {fileID: 6666891444090307028}
+  trafficNodeCrosswalk: {fileID: 2043658313090292526}
+  pathPrefab: {fileID: 5809654084112019270, guid: 2819ebe28c3f60647b875c55de688821, type: 3}
+  pathParent: {fileID: 6288524743661866810}
+  lanes: []
+  externalLanes: []
+  laneCount: 1
+  laneWidth: 7.5
+  dividerWidth: 0
+  chanceToSpawn: 1
+  weight: 1
+  customAchieveDistance: 0
+  lightType: 1
+  trafficNodeType: 0
+  hasCrosswalk: 1
+  isOneWay: 0
+  isEndOfOneWay: 0
+  lockPathAutoCreation: 0
+  autoPathIsCreated: 0
+  subNodeType: 0
+  tempCreatorLocalIndex: 1
+--- !u!114 &2043658313090292526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3451613488480669311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f4a4a0f4ff493e43aeb402c835f89ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedestrianNode1: {fileID: 2620269997813730515}
+  pedestrianNode2: {fileID: 1871322217752665078}
+  crossWalkOffset: {x: -0.62, y: 0, z: 0}
+--- !u!1 &3473556934577190805
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3523215500506128249}
+  - component: {fileID: 2458012731750640519}
+  - component: {fileID: 7412667867810346771}
+  - component: {fileID: 2089583543899643746}
+  m_Layer: 21
+  m_Name: PedestrianSpawnPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3523215500506128249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3473556934577190805}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.88, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 78227033339257015}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &2458012731750640519
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3473556934577190805}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7412667867810346771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3473556934577190805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72466e5126432342af787de497b412c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HotKeyConfig: {fileID: 11400000, guid: d1754fa05ebeebd47bc3942970427182, type: 2}
+  connectedTrafficNode: {fileID: 6506298061152375464}
+  relatedTrafficLightHandler: {fileID: 6666891444090307028}
+  autoConnectedPedestrianNodes: []
+  defaultConnectedPedestrianNodes:
+  - {fileID: 8194812571768403277}
+  - {fileID: 1682547081301563602}
+  - {fileID: 0}
+  connectionDataContainer:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 0
+    showPages: 1
+    dirty: 0
+    newKey: 0
+    keys: 
+    values: []
+  leftHorizontal: 0
+  rightHorizontal: 0
+  leftVertical: 0
+  rightVertical: 1
+  pedestrianNodeType: 0
+  previousPedestrianNodeType: 0
+  pedestrianNodeShapeType: 0
+  canSpawnInView: 0
+  capacity: -1
+  priorityWeight: 1
+  customAchieveDistance: 0
+  chanceToSpawn: 1
+  maxPathWidth: 1
+  height: 1
+  hasMovementRandomOffset: 1
+  uniqueId: 0
+  PedestrianNodeCreator: {fileID: 0}
+  CurrentPedestrianNodeAreaSettings:
+    areaShapeType: 0
+    areaSize: 5
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    unlimitedTalkTime: 1
+    minTalkTime: 20
+    maxTalkTime: 50
+    showBounds: 1
+    boundsColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2089583543899643746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3473556934577190805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507830899febbed469dd34723ce03b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3656849264928337917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6493627626697314238}
+  m_Layer: 0
+  m_Name: Lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6493627626697314238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3656849264928337917}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 500783816573751909}
+  - {fileID: 256629091254712162}
+  m_Father: {fileID: 8791460563456150703}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3848914935431417600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3937884262553805303}
+  - component: {fileID: 1850071484297799628}
+  - component: {fileID: 8782437171316075393}
+  - component: {fileID: 980041504289214710}
+  m_Layer: 21
+  m_Name: PedestrianNode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3937884262553805303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3848914935431417600}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.88, y: 0, z: 6.880003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6283588704250301101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1850071484297799628
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3848914935431417600}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8782437171316075393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3848914935431417600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72466e5126432342af787de497b412c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HotKeyConfig: {fileID: 11400000, guid: d1754fa05ebeebd47bc3942970427182, type: 2}
+  connectedTrafficNode: {fileID: 0}
+  relatedTrafficLightHandler: {fileID: 0}
+  autoConnectedPedestrianNodes: []
+  defaultConnectedPedestrianNodes:
+  - {fileID: 1871322217752665078}
+  - {fileID: 3411815555844383106}
+  connectionDataContainer:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 0
+    showPages: 1
+    dirty: 0
+    newKey: 0
+    keys: 
+    values: []
+  leftHorizontal: 0
+  rightHorizontal: 0
+  leftVertical: 0
+  rightVertical: 0
+  pedestrianNodeType: 0
+  previousPedestrianNodeType: 0
+  pedestrianNodeShapeType: 0
+  canSpawnInView: 0
+  capacity: -1
+  priorityWeight: 1
+  customAchieveDistance: 0
+  chanceToSpawn: 1
+  maxPathWidth: 1
+  height: 1
+  hasMovementRandomOffset: 1
+  uniqueId: 0
+  PedestrianNodeCreator: {fileID: 0}
+  CurrentPedestrianNodeAreaSettings:
+    areaShapeType: 0
+    areaSize: 5
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    unlimitedTalkTime: 1
+    minTalkTime: 20
+    maxTalkTime: 50
+    showBounds: 1
+    boundsColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &980041504289214710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3848914935431417600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507830899febbed469dd34723ce03b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3951522225323131724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5818093898553340090}
+  m_Layer: 0
+  m_Name: CrossWalk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5818093898553340090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3951522225323131724}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3357626467404905586}
+  - {fileID: 7317342881683673811}
+  m_Father: {fileID: 8952151280796000219}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4029730272938583826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 500783816573751909}
+  m_Layer: 0
+  m_Name: TrafficLights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &500783816573751909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4029730272938583826}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6493627626697314238}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4535965957837468080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3357626467404905586}
+  - component: {fileID: 2859084575556046897}
+  - component: {fileID: 1682547081301563602}
+  - component: {fileID: 2390725748538821866}
+  m_Layer: 21
+  m_Name: PedestrianSpawnPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3357626467404905586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535965957837468080}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.1, y: 0, z: -3.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5818093898553340090}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &2859084575556046897
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535965957837468080}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1682547081301563602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535965957837468080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72466e5126432342af787de497b412c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HotKeyConfig: {fileID: 11400000, guid: d1754fa05ebeebd47bc3942970427182, type: 2}
+  connectedTrafficNode: {fileID: 1618596867184944596}
+  relatedTrafficLightHandler: {fileID: 6666891444090307028}
+  autoConnectedPedestrianNodes: []
+  defaultConnectedPedestrianNodes:
+  - {fileID: 7412667867810346771}
+  - {fileID: 8194812571768403277}
+  - {fileID: 0}
+  connectionDataContainer:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 0
+    showPages: 1
+    dirty: 0
+    newKey: 0
+    keys: 
+    values: []
+  leftHorizontal: 0
+  rightHorizontal: 0
+  leftVertical: 0
+  rightVertical: 1
+  pedestrianNodeType: 0
+  previousPedestrianNodeType: 0
+  pedestrianNodeShapeType: 0
+  canSpawnInView: 0
+  capacity: -1
+  priorityWeight: 1
+  customAchieveDistance: 0
+  chanceToSpawn: 1
+  maxPathWidth: 1
+  height: 1
+  hasMovementRandomOffset: 1
+  uniqueId: 0
+  PedestrianNodeCreator: {fileID: 0}
+  CurrentPedestrianNodeAreaSettings:
+    areaShapeType: 0
+    areaSize: 5
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    unlimitedTalkTime: 1
+    minTalkTime: 20
+    maxTalkTime: 50
+    showBounds: 1
+    boundsColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2390725748538821866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535965957837468080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507830899febbed469dd34723ce03b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4606816761436516687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6288524743661866810}
+  m_Layer: 0
+  m_Name: TrafficPaths
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6288524743661866810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4606816761436516687}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6594450131222751298}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5337787051527191352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2022943092353926273}
+  m_Layer: 0
+  m_Name: CrossWalk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2022943092353926273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5337787051527191352}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6134582472545197672}
+  - {fileID: 1563576362286425281}
+  m_Father: {fileID: 6594450131222751298}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5971126327720787531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 968161256720198220}
+  m_Layer: 0
+  m_Name: TrafficPaths
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &968161256720198220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5971126327720787531}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8952151280796000219}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6356321474056717557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563576362286425281}
+  - component: {fileID: 4331791373252151063}
+  - component: {fileID: 1871322217752665078}
+  - component: {fileID: 2402273891505409826}
+  m_Layer: 21
+  m_Name: PedestrianSpawnPoint2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1563576362286425281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6356321474056717557}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.880004, y: 0, z: 3.7100039}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2022943092353926273}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &4331791373252151063
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6356321474056717557}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1871322217752665078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6356321474056717557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72466e5126432342af787de497b412c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HotKeyConfig: {fileID: 11400000, guid: d1754fa05ebeebd47bc3942970427182, type: 2}
+  connectedTrafficNode: {fileID: 7024255039385732011}
+  relatedTrafficLightHandler: {fileID: 4990135004137724864}
+  autoConnectedPedestrianNodes: []
+  defaultConnectedPedestrianNodes:
+  - {fileID: 2620269997813730515}
+  - {fileID: 8782437171316075393}
+  - {fileID: 8194812571768403277}
+  connectionDataContainer:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 0
+    showPages: 1
+    dirty: 0
+    newKey: 0
+    keys: 
+    values: []
+  leftHorizontal: 0
+  rightHorizontal: 0
+  leftVertical: 0
+  rightVertical: 1
+  pedestrianNodeType: 0
+  previousPedestrianNodeType: 0
+  pedestrianNodeShapeType: 0
+  canSpawnInView: 0
+  capacity: -1
+  priorityWeight: 1
+  customAchieveDistance: 0
+  chanceToSpawn: 1
+  maxPathWidth: 1
+  height: 1
+  hasMovementRandomOffset: 1
+  uniqueId: 0
+  PedestrianNodeCreator: {fileID: 0}
+  CurrentPedestrianNodeAreaSettings:
+    areaShapeType: 0
+    areaSize: 5
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    unlimitedTalkTime: 1
+    minTalkTime: 20
+    maxTalkTime: 50
+    showBounds: 1
+    boundsColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &2402273891505409826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6356321474056717557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507830899febbed469dd34723ce03b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6450616782788660620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8011337088517403190}
+  m_Layer: 0
+  m_Name: TrafficNodes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8011337088517403190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6450616782788660620}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8952151280796000219}
+  - {fileID: 6594450131222751298}
+  - {fileID: 3403715644687693338}
+  m_Father: {fileID: 8791460563456150703}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6977088159325997712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1630966785574096607}
+  m_Layer: 0
+  m_Name: TrafficPaths
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1630966785574096607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6977088159325997712}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3403715644687693338}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7735318219280167718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7747092458638048714}
+  - component: {fileID: 3942312015327176215}
+  - component: {fileID: 8194812571768403277}
+  - component: {fileID: 3223010301670064469}
+  m_Layer: 21
+  m_Name: PedestrianNode (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7747092458638048714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735318219280167718}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.22, y: 0, z: -0.41}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6283588704250301101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &3942312015327176215
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735318219280167718}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8194812571768403277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735318219280167718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72466e5126432342af787de497b412c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HotKeyConfig: {fileID: 11400000, guid: d1754fa05ebeebd47bc3942970427182, type: 2}
+  connectedTrafficNode: {fileID: 0}
+  relatedTrafficLightHandler: {fileID: 0}
+  autoConnectedPedestrianNodes: []
+  defaultConnectedPedestrianNodes:
+  - {fileID: 1682547081301563602}
+  - {fileID: 1329754525192249253}
+  - {fileID: 2620269997813730515}
+  - {fileID: 1871322217752665078}
+  - {fileID: 3411815555844383106}
+  - {fileID: 7412667867810346771}
+  connectionDataContainer:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 0
+    showPages: 1
+    dirty: 0
+    newKey: 0
+    keys: 
+    values: []
+  leftHorizontal: 0
+  rightHorizontal: 0
+  leftVertical: 0
+  rightVertical: 0
+  pedestrianNodeType: 0
+  previousPedestrianNodeType: 0
+  pedestrianNodeShapeType: 0
+  canSpawnInView: 0
+  capacity: -1
+  priorityWeight: 1
+  customAchieveDistance: 0
+  chanceToSpawn: 1
+  maxPathWidth: 1
+  height: 1
+  hasMovementRandomOffset: 1
+  uniqueId: 0
+  PedestrianNodeCreator: {fileID: 0}
+  CurrentPedestrianNodeAreaSettings:
+    areaShapeType: 0
+    areaSize: 5
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    unlimitedTalkTime: 1
+    minTalkTime: 20
+    maxTalkTime: 50
+    showBounds: 1
+    boundsColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &3223010301670064469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735318219280167718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507830899febbed469dd34723ce03b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8623267195129248284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 78227033339257015}
+  m_Layer: 0
+  m_Name: CrossWalk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &78227033339257015
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8623267195129248284}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6441854267694666384}
+  - {fileID: 3523215500506128249}
+  m_Father: {fileID: 3403715644687693338}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8647284637802498738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4212188623447829547}
+  m_Layer: 0
+  m_Name: ParkingPlaceParent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4212188623447829547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8647284637802498738}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8791460563456150703}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8721194263584147167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3403715644687693338}
+  - component: {fileID: 1797686176615885490}
+  - component: {fileID: 6506298061152375464}
+  - component: {fileID: 7810295491706375450}
+  m_Layer: 20
+  m_Name: TrafficNode3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3403715644687693338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8721194263584147167}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 78227033339257015}
+  - {fileID: 1630966785574096607}
+  m_Father: {fileID: 8011337088517403190}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1797686176615885490
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8721194263584147167}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15, y: 2, z: 0.5}
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &6506298061152375464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8721194263584147167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 909a80ce9df91e84db88d0d59a44f45c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadSegmentCreator: {fileID: 2567763903183140930}
+  trafficLightCrossroad: {fileID: 8532820354393441088}
+  trafficLightHandler: {fileID: 4990135004137724864}
+  trafficNodeCrosswalk: {fileID: 7810295491706375450}
+  pathPrefab: {fileID: 5809654084112019270, guid: 2819ebe28c3f60647b875c55de688821, type: 3}
+  pathParent: {fileID: 1630966785574096607}
+  lanes: []
+  externalLanes: []
+  laneCount: 1
+  laneWidth: 7.5
+  dividerWidth: 0
+  chanceToSpawn: 1
+  weight: 1
+  customAchieveDistance: 0
+  lightType: 1
+  trafficNodeType: 0
+  hasCrosswalk: 1
+  isOneWay: 0
+  isEndOfOneWay: 0
+  lockPathAutoCreation: 0
+  autoPathIsCreated: 0
+  subNodeType: 0
+  tempCreatorLocalIndex: 2
+--- !u!114 &7810295491706375450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8721194263584147167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f4a4a0f4ff493e43aeb402c835f89ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pedestrianNode1: {fileID: 3411815555844383106}
+  pedestrianNode2: {fileID: 7412667867810346771}
+  crossWalkOffset: {x: -0.62, y: 0, z: 0}
+--- !u!1 &8860531820719734034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2748564162857762944}
+  - component: {fileID: 7264051182322584182}
+  - component: {fileID: 5825481344179264369}
+  - component: {fileID: 7632425264507563687}
+  m_Layer: 21
+  m_Name: PedestrianNode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2748564162857762944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8860531820719734034}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.88, y: 0, z: -6.880003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6283588704250301101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &7264051182322584182
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8860531820719734034}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5825481344179264369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8860531820719734034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e72466e5126432342af787de497b412c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HotKeyConfig: {fileID: 11400000, guid: d1754fa05ebeebd47bc3942970427182, type: 2}
+  connectedTrafficNode: {fileID: 0}
+  relatedTrafficLightHandler: {fileID: 0}
+  autoConnectedPedestrianNodes: []
+  defaultConnectedPedestrianNodes:
+  - {fileID: 1329754525192249253}
+  - {fileID: 2620269997813730515}
+  connectionDataContainer:
+    keyName: Key
+    valueName: Value
+    newKeyName: New Key
+    showContent: 1
+    initPages: 0
+    showPages: 1
+    dirty: 0
+    newKey: 0
+    keys: 
+    values: []
+  leftHorizontal: 0
+  rightHorizontal: 0
+  leftVertical: 0
+  rightVertical: 0
+  pedestrianNodeType: 0
+  previousPedestrianNodeType: 0
+  pedestrianNodeShapeType: 0
+  canSpawnInView: 0
+  capacity: -1
+  priorityWeight: 1
+  customAchieveDistance: 0
+  chanceToSpawn: 1
+  maxPathWidth: 1
+  height: 1
+  hasMovementRandomOffset: 1
+  uniqueId: 0
+  PedestrianNodeCreator: {fileID: 0}
+  CurrentPedestrianNodeAreaSettings:
+    areaShapeType: 0
+    areaSize: 5
+    minSpawnCount: 1
+    maxSpawnCount: 1
+    unlimitedTalkTime: 1
+    minTalkTime: 20
+    maxTalkTime: 50
+    showBounds: 1
+    boundsColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &7632425264507563687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8860531820719734034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507830899febbed469dd34723ce03b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

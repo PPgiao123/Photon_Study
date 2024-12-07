@@ -12,12 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24df4e62542689043b2808e2c9d87499, type: 3}
   m_Name: RoadSegmentCreatorConfig
   m_EditorClassIdentifier: 
-  trafficNodePrefab: {fileID: 8359022482108317964, guid: d9d34a56aa64c0a4d91f552ad5291b84,
-    type: 3}
-  pedestrianNodePrefab: {fileID: 5956831531963972048, guid: b05636b187f7d144e839e95d64ad69b0,
-    type: 3}
-  pathPrefab: {fileID: 5809654084112019270, guid: 2819ebe28c3f60647b875c55de688821,
-    type: 3}
+  trafficNodePrefab: {fileID: 8359022482108317964, guid: d9d34a56aa64c0a4d91f552ad5291b84, type: 3}
+  pedestrianNodePrefab: {fileID: 5956831531963972048, guid: b05636b187f7d144e839e95d64ad69b0, type: 3}
+  pathPrefab: {fileID: 5809654084112019270, guid: 2819ebe28c3f60647b875c55de688821, type: 3}
   lightPrefabsData:
     keyName: Key
     valueName: Value
@@ -32,22 +29,21 @@ MonoBehaviour:
     - {fileID: 6743041076886836682, guid: 8b6c6b1d3edbcb847a5ef0b1a8b13117, type: 3}
     - {fileID: 4607674487301018032, guid: eff074dab74f98743816137e3f12bf5a, type: 3}
     - {fileID: 1763319786561265085, guid: 987e1efddcec4994da85a3129670f053, type: 3}
-  pedestrianLightPrefab: {fileID: 5919172933213904205, guid: c47fab0074ef2cb4a9ae1dfd0286ea23,
-    type: 3}
+  pedestrianLightPrefab: {fileID: 5919172933213904205, guid: c47fab0074ef2cb4a9ae1dfd0286ea23, type: 3}
   viewType: 0
   crossroadWidth: 12
   subTrafficNodeDistanceFromCenter: 14
-  laneWidth: 3.8
+  laneWidth: 7.5
   customSubLaneWidth: 0
   subLaneWidth: 3.8
   pathCorner1Offset: {x: 1, y: 0, z: -1}
   pathCorner2Offset: {x: -1, y: 0, z: 1}
-  crossWalkOffset: {x: 0, y: 0, z: 0}
+  crossWalkOffset: {x: -0.62, y: 0, z: 0}
   crossWalkNodeShape: 0
   pedestrianRouteWidth: 1
   crosswalkNodeHeight: 1
   cornerOffset: {x: 0, y: 0, z: 0}
-  pedestrianCornerConnectionType: 0
+  pedestrianCornerConnectionType: 1
   newNodeSettings:
     LaneCount: 1
     LaneWidth: 1.9
@@ -84,8 +80,8 @@ MonoBehaviour:
   turnCurveType: 0
   turnRoadPathSpeedLimit: 30
   wayPointTurnCurveCount: 10
-  addPedestrianLights: 1
-  addTrafficLights: 1
+  addPedestrianLights: 0
+  addTrafficLights: 0
   hotkeyDictionary:
     keyName: Key
     valueName: Value

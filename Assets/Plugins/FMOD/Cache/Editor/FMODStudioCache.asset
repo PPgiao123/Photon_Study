@@ -1,5 +1,403 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8788833969230628567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/CarExplode
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/CarExplode
+  Guid:
+    Data1: 335127152
+    Data2: 1239482208
+    Data3: 1029108882
+    Data4: -1305857746
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 20
+  Length: 3500
+--- !u!114 &-7948450437744562239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapon/RevolverRealod
+  m_EditorClassIdentifier: 
+  Path: event:/Weapon/RevolverRealod
+  Guid:
+    Data1: 429237889
+    Data2: 1202723572
+    Data3: 1412351624
+    Data4: 935535663
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &-5157241915472091008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/Idle
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/Idle
+  Guid:
+    Data1: 1536791611
+    Data2: 1175753725
+    Data3: 566662305
+    Data4: 1110431362
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 0
+--- !u!114 &-5039715018098021838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/Engine4
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/Engine4
+  Guid:
+    Data1: -1283869570
+    Data2: 1286232785
+    Data3: -683484739
+    Data4: -70456451
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 41041
+--- !u!114 &-4543572535419210823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/TramHorne
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/TramHorne
+  Guid:
+    Data1: -1883886207
+    Data2: 1138801977
+    Data3: 855988363
+    Data4: 242758212
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 4343
+--- !u!114 &-4013026537479283696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pedestrian/Scream
+  m_EditorClassIdentifier: 
+  Path: event:/Pedestrian/Scream
+  Guid:
+    Data1: -152028021
+    Data2: 1337703192
+    Data3: 1492263057
+    Data4: -1952630417
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1100
+--- !u!114 &-3785637308428891137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/DotsCity/FMOD/fmodproject/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638683104120000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1976
+  Exists: 1
+--- !u!114 &-2934892525120834889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/OpenCar1
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/OpenCar1
+  Guid:
+    Data1: 2131644795
+    Data2: 1249266458
+    Data3: 1251784842
+    Data4: 1701129530
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800
+--- !u!114 &-2739133013719637207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/Engine3
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/Engine3
+  Guid:
+    Data1: 1572170598
+    Data2: 1301532320
+    Data3: -692732256
+    Data4: 534167797
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 10890
+--- !u!114 &-2545236708218172518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/HitBody
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/HitBody
+  Guid:
+    Data1: -60746406
+    Data2: 1320374946
+    Data3: 2086526872
+    Data4: -1784878049
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 200
+--- !u!114 &-2481909094055081998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapon/ThompsonRealod
+  m_EditorClassIdentifier: 
+  Path: event:/Weapon/ThompsonRealod
+  Guid:
+    Data1: 1046764615
+    Data2: 1337191145
+    Data3: 1632038579
+    Data4: -454325945
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1750
+--- !u!114 &-2126399415792514729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapon/ThompsonShot
+  m_EditorClassIdentifier: 
+  Path: event:/Weapon/ThompsonShot
+  Guid:
+    Data1: 1944523106
+    Data2: 1226479005
+    Data3: -703652986
+    Data4: 637090798
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
+--- !u!114 &-1843991546963834401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pedestrian/EnterTram
+  m_EditorClassIdentifier: 
+  Path: event:/Pedestrian/EnterTram
+  Guid:
+    Data1: -882468062
+    Data2: 1322549190
+    Data3: -1424608604
+    Data4: -788298587
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 670
+--- !u!114 &-1701065282431984259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footsteps
+  Guid:
+    Data1: 1041294666
+    Data2: 1340905331
+    Data3: 1452750213
+    Data4: 1543472148
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-1102636489321324791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/HitObs
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/HitObs
+  Guid:
+    Data1: -565205092
+    Data2: 1131697188
+    Data3: -2144438374
+    Data4: -464628640
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +410,437 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: -3785637308428891137}
+  - {fileID: 133054064619694476}
+  EditorEvents:
+  - {fileID: 4111889536089409311}
+  - {fileID: 6555629323058291284}
+  - {fileID: -1843991546963834401}
+  - {fileID: -5157241915472091008}
+  - {fileID: 4525797766670205687}
+  - {fileID: -2481909094055081998}
+  - {fileID: -1701065282431984259}
+  - {fileID: 5528330249196499454}
+  - {fileID: -2545236708218172518}
+  - {fileID: -2126399415792514729}
+  - {fileID: -2739133013719637207}
+  - {fileID: -8788833969230628567}
+  - {fileID: 1379364516853064937}
+  - {fileID: 6882391681154300962}
+  - {fileID: -2934892525120834889}
+  - {fileID: -5039715018098021838}
+  - {fileID: -4543572535419210823}
+  - {fileID: -7948450437744562239}
+  - {fileID: 368046243922672441}
+  - {fileID: -4013026537479283696}
+  - {fileID: 1526926260405662188}
+  - {fileID: 7265936291512648813}
+  - {fileID: -1102636489321324791}
+  - {fileID: 5518689488966947202}
+  - {fileID: 4642879951001261890}
+  - {fileID: 1712749275663102593}
+  - {fileID: 6725822203055293431}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  MasterBanks:
+  - {fileID: 133054064619694476}
+  StringsBanks:
+  - {fileID: -3785637308428891137}
+  cacheTime: 638683104120000000
   cacheVersion: 131621
+--- !u!114 &133054064619694476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/DotsCity/FMOD/fmodproject/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638683101720000000
+  FileSizes:
+  - Name: Desktop
+    Value: 4409664
+  Exists: 1
+--- !u!114 &368046243922672441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/Engine6
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/Engine6
+  Guid:
+    Data1: 1826984842
+    Data2: 1188320098
+    Data3: 1626949780
+    Data4: -1115008571
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 31300
+--- !u!114 &1379364516853064937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapon/CarHit
+  m_EditorClassIdentifier: 
+  Path: event:/Weapon/CarHit
+  Guid:
+    Data1: -1438568335
+    Data2: 1321599151
+    Data3: 897498016
+    Data4: -1659075836
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &1526926260405662188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/Engine5
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/Engine5
+  Guid:
+    Data1: 1527857556
+    Data2: 1245887072
+    Data3: 1671470470
+    Data4: -1284654456
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 18610
+--- !u!114 &1712749275663102593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/Engine8
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/Engine8
+  Guid:
+    Data1: -1879725623
+    Data2: 1182761259
+    Data3: -922157933
+    Data4: 400218588
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 14791
+--- !u!114 &3637930984559314421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ignition1/End2
+  m_EditorClassIdentifier: 
+  Name: End2
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 233146317
+    data2: 3524537813
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &4111889536089409311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/Horne
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/Horne
+  Guid:
+    Data1: 1086417920
+    Data2: 1165830151
+    Data3: 1724498861
+    Data4: -1574671577
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 6450
+--- !u!114 &4525797766670205687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapon/RevolverShot
+  m_EditorClassIdentifier: 
+  Path: event:/Weapon/RevolverShot
+  Guid:
+    Data1: -1879956417
+    Data2: 1234240994
+    Data3: 1039785869
+    Data4: -112627465
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 660
+--- !u!114 &4642879951001261890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/CrowdSound
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/CrowdSound
+  Guid:
+    Data1: 784967360
+    Data2: 1317113853
+    Data3: 1946889911
+    Data4: -1027270482
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 10000
+  Length: 120966
+--- !u!114 &5518689488966947202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/TramMoving
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/TramMoving
+  Guid:
+    Data1: 999294909
+    Data2: 1290487915
+    Data3: -972231797
+    Data4: 1691720464
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 19187
+--- !u!114 &5528330249196499454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/Engine2
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/Engine2
+  Guid:
+    Data1: 1104320595
+    Data2: 1280588086
+    Data3: -1026653550
+    Data4: -762352990
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 52384
+--- !u!114 &6555629323058291284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pedestrian/ExitTram
+  m_EditorClassIdentifier: 
+  Path: event:/Pedestrian/ExitTram
+  Guid:
+    Data1: 219123219
+    Data2: 1213948581
+    Data3: -8856942
+    Data4: -1560766611
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 565
+--- !u!114 &6725822203055293431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/Ignition1
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/Ignition1
+  Guid:
+    Data1: 23991513
+    Data2: 1212497559
+    Data3: -1200797029
+    Data4: -681407491
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3637930984559314421}
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 1400
+--- !u!114 &6882391681154300962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/ExitCar1
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/ExitCar1
+  Guid:
+    Data1: -1305068943
+    Data2: 1204669278
+    Data3: 6036374
+    Data4: -2006341922
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 450
+--- !u!114 &7265936291512648813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pedestrian/Death
+  m_EditorClassIdentifier: 
+  Path: event:/Pedestrian/Death
+  Guid:
+    Data1: 1410858390
+    Data2: 1194485751
+    Data3: 1573586079
+    Data4: -1897384525
+  Banks:
+  - {fileID: 133054064619694476}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
