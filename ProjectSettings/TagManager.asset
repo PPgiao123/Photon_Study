@@ -20,17 +20,17 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - CollidableNpc
+  - Traffic
+  - Npc
+  - Ground
+  - Ragdoll
+  - TrafficNode
+  - PedestrianNode
+  - StaticPhysicsShape
+  - Chunk
+  - Props
+  - Combined
   - 
   - 
   - 

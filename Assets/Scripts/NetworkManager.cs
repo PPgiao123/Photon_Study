@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
-using Cinemachine;
+using Unity.Cinemachine;
 using StarterAssets;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    public CinemachineVirtualCamera playerFollowCamera;
+    public CinemachineCamera playerFollowCamera;
     public UICanvasControllerInput canvasControllerInput;
 
     //MonoBehaviourPunCallbacks用以获取服务器的反馈
