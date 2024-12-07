@@ -4841,6 +4841,7 @@ MonoBehaviour:
   JumpHeight: 1.2
   Gravity: -15
   JumpTimeout: 0.3
+  Fire1Timeout: 0.5
   FallTimeout: 0.15
   Grounded: 1
   GroundedOffset: -0.14
@@ -4886,6 +4887,7 @@ MonoBehaviour:
   look: {x: 0, y: 0}
   jump: 0
   sprint: 0
+  fire1: 0
   analogMovement: 0
   cursorLocked: 1
   cursorInputForLook: 1
@@ -5046,6 +5048,9 @@ MonoBehaviour:
   - Type: 1
     SynchronizeType: 2
     Name: MotionSpeed
+  - Type: 4
+    SynchronizeType: 0
+    Name: Fire1
   m_SynchronizeLayers:
   - SynchronizeType: 2
     LayerIndex: 0

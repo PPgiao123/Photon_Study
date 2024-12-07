@@ -44,6 +44,10 @@ namespace StarterAssets
         [Tooltip("Time required to pass before being able to jump again. Set to 0f to instantly jump again")]
         public float JumpTimeout = 0.50f;
 
+        [Space(10)]
+        [Tooltip("Time required to pass before being able to fire1 again. Set to 0f to instantly jump again")]
+        public float Fire1Timeout = 0.50f;
+
         [Tooltip("Time required to pass before entering the fall state. Useful for walking down stairs")]
         public float FallTimeout = 0.15f;
 
@@ -90,6 +94,7 @@ namespace StarterAssets
 
         // timeout deltatime
         private float _jumpTimeoutDelta;
+        private float _fire1TimeoutDelta;
         private float _fallTimeoutDelta;
 
         // animation IDs
@@ -98,6 +103,7 @@ namespace StarterAssets
         private int _animIDJump;
         private int _animIDFreeFall;
         private int _animIDMotionSpeed;
+        private int _animIDFire1;
 
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
@@ -151,6 +157,7 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
+            _fire1TimeoutDelta = 0;
         }
 
         private void Update()
@@ -162,6 +169,7 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
+            Fire1();
         }
 
         private void LateUpdate()
@@ -176,6 +184,7 @@ namespace StarterAssets
             _animIDJump = Animator.StringToHash("Jump");
             _animIDFreeFall = Animator.StringToHash("FreeFall");
             _animIDMotionSpeed = Animator.StringToHash("MotionSpeed");
+            _animIDFire1 = Animator.StringToHash("Fire1");
         }
 
         private void GroundedCheck()
@@ -348,6 +357,32 @@ namespace StarterAssets
             if (_verticalVelocity < _terminalVelocity)
             {
                 _verticalVelocity += Gravity * Time.deltaTime;
+            }
+        }
+
+        private void Fire1()
+        {
+            // fire1 timeout
+            if (_fire1TimeoutDelta > 0.0f)
+            {
+                _fire1TimeoutDelta -= Time.deltaTime;
+                // if we haven't finished animation, do not fire1
+                _input.fire1 = false;
+                _animator.SetBool(_animIDFire1, false);
+            }
+            // Fire1
+            if (_input.fire1)
+            {
+
+                Debug.Log("222_fire1TimeoutDelta = " + _fire1TimeoutDelta);
+                // fire1 timeout
+                if (_fire1TimeoutDelta <= 0.0f && _hasAnimator)
+                {
+                    // update animator if using character
+                    _animator.SetBool(_animIDFire1, true);
+                    //reset
+                    _fire1TimeoutDelta = Fire1Timeout;
+                }
             }
         }
 

@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Cinemachine;
+using StarterAssets;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
     public CinemachineVirtualCamera playerFollowCamera;
+    public UICanvasControllerInput canvasControllerInput;
+
     //MonoBehaviourPunCallbacks用以获取服务器的反馈
     void Start()
     {
@@ -27,5 +30,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 
         GameObject clone = PhotonNetwork.Instantiate("Player", new Vector3(0, 0, 0), Quaternion.identity, 0);
         playerFollowCamera.Follow = clone.GetComponent<Player>().cameraTrans;
+        canvasControllerInput.starterAssetsInputs = clone.GetComponent<StarterAssetsInputs>();
     }
 }
