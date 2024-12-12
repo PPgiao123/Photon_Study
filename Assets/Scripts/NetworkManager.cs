@@ -7,7 +7,7 @@ using StarterAssets;
 
 public class NetworkManager : MonoBehaviourPunCallbacks
 {
-    public CinemachineCamera playerFollowCamera;
+    public CinemachineVirtualCamera playerFollowCamera;
     public UICanvasControllerInput canvasControllerInput;
 
     //MonoBehaviourPunCallbacks用以获取服务器的反馈

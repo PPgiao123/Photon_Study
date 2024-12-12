@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7faccb9a429efc34ca7fa23f334a8a80, type: 3}
   m_Name: GeneralSettingsData
   m_EditorClassIdentifier: 
-  worldSimulationType: 0
+  worldSimulationType: 1
   physicsSimulationType: 1
   cullPhysics: 1
   cullStaticPhysics: 1
@@ -39,7 +39,7 @@ MonoBehaviour:
   propsDamageSystemSupport: 1
   healthSystemSupport: 1
   playerAgentType: 0
-  playerControllerType: 0
+  playerControllerType: 2
   vehicleInteractionType: 0
   bulletSupport: 1
   bulletCollisionType: 0
