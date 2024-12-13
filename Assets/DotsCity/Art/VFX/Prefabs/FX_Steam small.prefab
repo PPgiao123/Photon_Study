@@ -36,8 +36,7 @@ PrefabInstance:
       propertyPath: InitialModule.startSize.scalar
       value: 0.08
       objectReference: {fileID: 0}
-    - target: {fileID: 7932462838852830395, guid: 5b6c2f68addb63847b151f0d41a9d3b1,
-        type: 3}
+    - target: {fileID: 7932462838852830395, guid: 5b6c2f68addb63847b151f0d41a9d3b1, type: 3}
       propertyPath: particleSystem
       value: 
       objectReference: {fileID: 6908771258984610387}
@@ -48,7 +47,6 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 5b6c2f68addb63847b151f0d41a9d3b1, type: 3}
 --- !u!198 &6908771258984610387 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 19800000, guid: 5b6c2f68addb63847b151f0d41a9d3b1,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 19800000, guid: 5b6c2f68addb63847b151f0d41a9d3b1, type: 3}
   m_PrefabInstance: {fileID: 6908771258999678355}
   m_PrefabAsset: {fileID: 0}

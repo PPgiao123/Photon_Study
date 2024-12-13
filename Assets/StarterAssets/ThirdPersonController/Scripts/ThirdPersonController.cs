@@ -373,8 +373,6 @@ namespace StarterAssets
             // Fire1
             if (_input.fire1)
             {
-
-                Debug.Log("222_fire1TimeoutDelta = " + _fire1TimeoutDelta);
                 // fire1 timeout
                 if (_fire1TimeoutDelta <= 0.0f && _hasAnimator)
                 {
