@@ -1246,7 +1246,6 @@ MonoBehaviour:
   defaultConnectedPedestrianNodes:
   - {fileID: 8194812571768403277}
   - {fileID: 1682547081301563602}
-  - {fileID: 0}
   connectionDataContainer:
     keyName: Key
     valueName: Value
@@ -1596,7 +1595,6 @@ MonoBehaviour:
   defaultConnectedPedestrianNodes:
   - {fileID: 7412667867810346771}
   - {fileID: 8194812571768403277}
-  - {fileID: 0}
   connectionDataContainer:
     keyName: Key
     valueName: Value
