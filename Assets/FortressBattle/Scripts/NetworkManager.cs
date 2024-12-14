@@ -9,6 +9,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 {
     public CinemachineVirtualCamera playerFollowCamera;
     public UICanvasControllerInput canvasControllerInput;
+    public MobileDisableAutoSwitchControls MobileDisableAutoSwitchControls;
 
     //MonoBehaviourPunCallbacks用以获取服务器的反馈
     void Start()
@@ -31,5 +32,6 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         GameObject clone = PhotonNetwork.Instantiate("PlayerSamurai", new Vector3(0, 5, 0), Quaternion.identity, 0);
         playerFollowCamera.Follow = clone.GetComponent<PlayerInfo>().cameraTrans;
         canvasControllerInput.starterAssetsInputs = clone.GetComponent<StarterAssetsInputs>();
+        MobileDisableAutoSwitchControls.playerInput = clone.GetComponent<UnityEngine.InputSystem.PlayerInput>();
     }
 }

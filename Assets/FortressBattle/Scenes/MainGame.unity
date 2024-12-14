@@ -286,7 +286,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6751388636123340836, guid: 2f7f3dde7ae722a4aafffe20691ad702, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8890774966862588244, guid: 2f7f3dde7ae722a4aafffe20691ad702, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8890774966862588244, guid: 2f7f3dde7ae722a4aafffe20691ad702, type: 3}
       propertyPath: playerInput
@@ -933,7 +937,7 @@ PrefabInstance:
       objectReference: {fileID: 1546456291}
     - target: {fileID: 1573641662570225374, guid: 4a18eea3c025bab49b9d0af99d8a7221, type: 3}
       propertyPath: entitySubSceneSavePath
-      value: Assets/FortressBattle/Scenes/SampleScene/
+      value: Assets/FortressBattle/Scenes/MainGame/
       objectReference: {fileID: 0}
     - target: {fileID: 4022515230458033160, guid: 4a18eea3c025bab49b9d0af99d8a7221, type: 3}
       propertyPath: m_IsActive
@@ -1074,6 +1078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerFollowCamera: {fileID: 1691467238}
   canvasControllerInput: {fileID: 60006950}
+  MobileDisableAutoSwitchControls: {fileID: 1801700618}
 --- !u!1001 &1106904088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1700,6 +1705,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8718758144120776876, guid: 3b4b0cccbe645fe4d8bb87287d645aed, type: 3}
   m_PrefabInstance: {fileID: 1746238864}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1801700618 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8890774966862588244, guid: 2f7f3dde7ae722a4aafffe20691ad702, type: 3}
+  m_PrefabInstance: {fileID: 60006949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901182334643ba1438a25accc6bd0c79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1822518351
 PrefabInstance:
   m_ObjectHideFlags: 0
