@@ -1,4 +1,5 @@
 ﻿using Photon.Pun;
+using Spirit604.DotsCity.Simulation.Pedestrian;
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
@@ -380,6 +381,7 @@ namespace StarterAssets
                     _animator.SetBool(_animIDFire1, true);
                     //reset
                     _fire1TimeoutDelta = Fire1Timeout;
+                    CustomAreaTriggerCreatorSystem.CreateScaryTriggerStatic(transform.position);
                 }
             }
         }
