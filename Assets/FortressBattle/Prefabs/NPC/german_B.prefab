@@ -947,6 +947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 477772}
   - component: {fileID: 9539400}
+  - component: {fileID: 5045598274882360074}
   m_Layer: 0
   m_Name: german_B
   m_TagString: Untagged
@@ -982,7 +983,7 @@ Animator:
   m_GameObject: {fileID: 187294}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 3d06f9e13e57b434dbbb7e7b64c158e1, type: 3}
-  m_Controller: {fileID: 9100000, guid: 43be405b123e55543ad3df22200462ec, type: 2}
+  m_Controller: {fileID: 9100000, guid: 80689f04c659a84468cc44cb0bfcfcbf, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -993,6 +994,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5045598274882360074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5896cbfc3cc49564a93932989e6749ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cachedTransform: {fileID: 477772}
+  animator: {fileID: 9539400}
 --- !u!1 &188900
 GameObject:
   m_ObjectHideFlags: 0
