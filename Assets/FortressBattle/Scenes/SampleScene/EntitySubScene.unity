@@ -1002,51 +1002,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1934b1b5b65caf46804f528e33344af, type: 3}
---- !u!114 &1879825570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cca4c5ffc3394f94485c164ab550093a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parkingLineSettings:
-    placeTrafficNodeType: 1
-    trafficGroupMask:
-      TrafficMaskGroup: 0
-      TrafficGroupAllowed: -1
-      TrafficGroupForbidden: 0
-      GroupIndex: 0
-    parkingTrafficNodeWeight: 1
-    nodeCustomAchieveDistance: 0
-    placeCount: 1
-    placeSize: {x: 1, y: 1, z: 1}
-    parkingPlaceStartOffset: 0
-    parkingPlaceSpacingOffset: 0
-    parkingLineHandleType: 1
-    lineHandleObjectType: 0
-    positionSnapType: 0
-    rotationSnapType: 1
-    railType: 0
-    snapOffset: {x: 0, y: 0, z: 0}
-    positionSnap: 1
-    rotationSnapAngle: 10
-    lineStartPointLocal: {x: 0, y: 0, z: 0}
-    lineDirection: {x: 0, y: 0, z: 1}
-    nodeDirection: {x: 0, y: 0, z: 1}
-    addParkingPedestrianNodes: 1
-    parkingPedestrianNodeType: 4
-    autoConnectNodes: 1
-    parkingPedestrianNodeWeight: 0.05
-    parkingNodeOffset: {x: 0, y: 0, z: 0}
-    parkingEnterNodeOffset: {x: 0, y: 0, z: 0}
-    initialPathSpeedLimit: 0
-    nodeCloneCount: 1
-    nodeSkipLastCount: 0
 --- !u!1001 &1988663315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1106,11 +1061,11 @@ PrefabInstance:
     - target: {fileID: 7265869771455833325, guid: 16c4443c5079dbe4294a9bc151c52f2d, type: 3}
       propertyPath: trafficLightCrossroads.Array.data[0]
       value: 
-      objectReference: {fileID: 216060201}
+      objectReference: {fileID: 1377663227}
     - target: {fileID: 7265869771455833325, guid: 16c4443c5079dbe4294a9bc151c52f2d, type: 3}
       propertyPath: trafficLightCrossroads.Array.data[1]
       value: 
-      objectReference: {fileID: 1377663227}
+      objectReference: {fileID: 216060201}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

@@ -28,8 +28,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         base.OnJoinedRoom();
 
-        GameObject clone = PhotonNetwork.Instantiate("Player", new Vector3(0, 0, 0), Quaternion.identity, 0);
-        playerFollowCamera.Follow = clone.GetComponent<Player>().cameraTrans;
+        GameObject clone = PhotonNetwork.Instantiate("PlayerSamurai", new Vector3(0, 5, 0), Quaternion.identity, 0);
+        playerFollowCamera.Follow = clone.GetComponent<PlayerInfo>().cameraTrans;
         canvasControllerInput.starterAssetsInputs = clone.GetComponent<StarterAssetsInputs>();
     }
 }
